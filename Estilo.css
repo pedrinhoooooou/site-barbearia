@@ -1,0 +1,128 @@
+body{
+margin: 0;
+
+}
+
+
+.navegacao{
+    background-color: black;
+    font-size: 30px;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cor{
+    color: beige;
+}
+.navegacao ol{
+    list-style-type: none;
+    display: flex;
+}
+
+.navegacao ol li{
+    padding-left: 50px;
+    
+}
+
+.navegacao ol li:hover{
+    color: #ffd800;
+    cursor: pointer;
+
+
+}
+.banner{
+    background-image: url(como-escolher-barbearia-800x300.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.container{
+    background-color: black;
+    color: white;
+    height: 15vh;
+}
+
+.container .containertexto h1{
+    margin: 0%;
+    font-size: 50px;
+    padding-left: 60px;
+    padding-top: 25px;
+}
+
+.Unidades {
+    background-color: orange;
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+  .Unidadedetexto p {
+ font-size: 40px;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+.Unidadedetexto ol {
+ list-style-type: none;
+
+
+}
+
+.Unidadedetexto ol li{
+font-size: 25px;
+
+}
+
+button{
+ background-color: transparent;
+ border-radius: 10px;
+ transition: 2s;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.Unidades img{
+width: 550px;
+height: 450px;
+
+}
+
+.historia{
+text-align: center;
+height: 50vh;
+}
+
+.historia p{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: justify;
+}
+ .formulario{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+
+ }
+
+ .formulario input{
+    border: none;
+    outline: 0;
+    border-bottom: black 1px solid;
+ }
+
+ .rodape{
+background-color: black;
+color: white;
+height: 10vh;
+
+ }
